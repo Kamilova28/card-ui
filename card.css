@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#f8f8f8; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+   
+    border: 4px solid;
+   
+}
+.coding{
+
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+   justify-content: center;
+}
+.job{
+    margin-top: 6px;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+    
+}
+.media-icons{
+    display: flex;
+    
+    text-decoration: none;
+   
+  
+}
+.media-icons .link1{
+
+    width: 37px;
+    height: 37px;
+    border-radius: 20px;
+    background-color: #e130e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f8f8f8;
+    transition: 0.4s;
+    font-size: 18px;
+    margin-right: 1px;
+}
+.media-icons .link1:hover{
+    background-color: #f8f8f8;
+    color: #e130e1;
+}
+.media-icons .link2{
+
+    width: 37px;
+    height: 37px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f8f8f8;
+    transition: 0.4s;
+    font-size: 18px;
+    background-color: #ff0000;
+    transition: 0.4s;
+}
+.media-icons .link2:hover{
+    background-color: #f8f8f8;
+    color: #ff0000;
+}
+.media-icons .link3{
+    width: 37px;
+    height: 37px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f8f8f8;
+    transition: 0.4s;
+    font-size: 18px;
+    transition: 0.4s;
+    background-color:#4267b2 ;
+    margin-left: 1px;
+}
+.media-icons .link3:hover{
+    background-color: #f8f8f8;
+    color: #4267b2;
+}
+.media-icons .link4{
+
+    background-color: #0077ff;
+    width: 37px;
+    height: 37px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f8f8f8;
+    transition: 0.4s;
+    font-size: 18px;
+    transition: 0.4s;
+    margin-left: 1px;
+}
+.media-icons .link4:hover{
+  color: #0077ff;
+    background-color: #f8f8f8;
+   
+}
+.carddesign{
+    max-width: 350px;
+    width: 90%;
+    background-color: white;
+    border-radius: 3rem;
+}
